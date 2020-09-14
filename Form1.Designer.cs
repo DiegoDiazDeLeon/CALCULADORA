@@ -30,24 +30,24 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.Bot7 = new System.Windows.Forms.Button();
+            this.Bot5 = new System.Windows.Forms.Button();
+            this.Bot8 = new System.Windows.Forms.Button();
+            this.Bot9 = new System.Windows.Forms.Button();
+            this.Cero = new System.Windows.Forms.Button();
+            this.Raiz = new System.Windows.Forms.Button();
+            this.Bot3 = new System.Windows.Forms.Button();
+            this.Bot1 = new System.Windows.Forms.Button();
+            this.Bot0 = new System.Windows.Forms.Button();
+            this.Menos = new System.Windows.Forms.Button();
+            this.Bot2 = new System.Windows.Forms.Button();
+            this.Igual = new System.Windows.Forms.Button();
+            this.Bot6 = new System.Windows.Forms.Button();
+            this.Divi = new System.Windows.Forms.Button();
+            this.Pote = new System.Windows.Forms.Button();
+            this.Multi = new System.Windows.Forms.Button();
+            this.Mas = new System.Windows.Forms.Button();
+            this.Bot4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -64,191 +64,207 @@
             this.textBox2.Size = new System.Drawing.Size(318, 20);
             this.textBox2.TabIndex = 1;
             // 
-            // button1
+            // Bot7
             // 
-            this.button1.Location = new System.Drawing.Point(12, 64);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "7";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Bot7.Location = new System.Drawing.Point(12, 64);
+            this.Bot7.Name = "Bot7";
+            this.Bot7.Size = new System.Drawing.Size(75, 23);
+            this.Bot7.TabIndex = 2;
+            this.Bot7.Text = "7";
+            this.Bot7.UseVisualStyleBackColor = true;
+            this.Bot7.Click += new System.EventHandler(this.Bot7_Click);
             // 
-            // button2
+            // Bot5
             // 
-            this.button2.Location = new System.Drawing.Point(12, 93);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "5";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Bot5.Location = new System.Drawing.Point(12, 93);
+            this.Bot5.Name = "Bot5";
+            this.Bot5.Size = new System.Drawing.Size(75, 23);
+            this.Bot5.TabIndex = 3;
+            this.Bot5.Text = "5";
+            this.Bot5.UseVisualStyleBackColor = true;
+            this.Bot5.Click += new System.EventHandler(this.Bot5_Click);
             // 
-            // button3
+            // Bot8
             // 
-            this.button3.Location = new System.Drawing.Point(93, 64);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "8";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Bot8.Location = new System.Drawing.Point(93, 64);
+            this.Bot8.Name = "Bot8";
+            this.Bot8.Size = new System.Drawing.Size(75, 23);
+            this.Bot8.TabIndex = 4;
+            this.Bot8.Text = "8";
+            this.Bot8.UseVisualStyleBackColor = true;
+            this.Bot8.Click += new System.EventHandler(this.Bot8_Click);
             // 
-            // button4
+            // Bot9
             // 
-            this.button4.Location = new System.Drawing.Point(174, 64);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "9";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Bot9.Location = new System.Drawing.Point(174, 64);
+            this.Bot9.Name = "Bot9";
+            this.Bot9.Size = new System.Drawing.Size(75, 23);
+            this.Bot9.TabIndex = 5;
+            this.Bot9.Text = "9";
+            this.Bot9.UseVisualStyleBackColor = true;
+            this.Bot9.Click += new System.EventHandler(this.Bot9_Click);
             // 
-            // button5
+            // Cero
             // 
-            this.button5.Location = new System.Drawing.Point(255, 64);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Cero.Location = new System.Drawing.Point(255, 64);
+            this.Cero.Name = "Cero";
+            this.Cero.Size = new System.Drawing.Size(75, 23);
+            this.Cero.TabIndex = 6;
+            this.Cero.Text = "CE";
+            this.Cero.UseVisualStyleBackColor = true;
+            this.Cero.Click += new System.EventHandler(this.Cero_Click);
             // 
-            // button6
+            // Raiz
             // 
-            this.button6.Location = new System.Drawing.Point(255, 122);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.Raiz.Location = new System.Drawing.Point(255, 122);
+            this.Raiz.Name = "Raiz";
+            this.Raiz.Size = new System.Drawing.Size(75, 23);
+            this.Raiz.TabIndex = 7;
+            this.Raiz.Text = "RAIZ";
+            this.Raiz.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // Bot3
             // 
-            this.button7.Location = new System.Drawing.Point(12, 122);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "3";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Bot3.Location = new System.Drawing.Point(12, 122);
+            this.Bot3.Name = "Bot3";
+            this.Bot3.Size = new System.Drawing.Size(75, 23);
+            this.Bot3.TabIndex = 8;
+            this.Bot3.Text = "3";
+            this.Bot3.UseVisualStyleBackColor = true;
+            this.Bot3.Click += new System.EventHandler(this.Bot3_Click);
             // 
-            // button8
+            // Bot1
             // 
-            this.button8.Location = new System.Drawing.Point(12, 151);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "1";
-            this.button8.UseVisualStyleBackColor = true;
+            this.Bot1.Location = new System.Drawing.Point(12, 151);
+            this.Bot1.Name = "Bot1";
+            this.Bot1.Size = new System.Drawing.Size(75, 23);
+            this.Bot1.TabIndex = 9;
+            this.Bot1.Text = "1";
+            this.Bot1.UseVisualStyleBackColor = true;
+            this.Bot1.Click += new System.EventHandler(this.Bot1_Click);
             // 
-            // button9
+            // Bot0
             // 
-            this.button9.Location = new System.Drawing.Point(12, 180);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(156, 23);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "0";
-            this.button9.UseVisualStyleBackColor = true;
+            this.Bot0.Location = new System.Drawing.Point(12, 180);
+            this.Bot0.Name = "Bot0";
+            this.Bot0.Size = new System.Drawing.Size(156, 23);
+            this.Bot0.TabIndex = 10;
+            this.Bot0.Text = "0";
+            this.Bot0.UseVisualStyleBackColor = true;
+            this.Bot0.Click += new System.EventHandler(this.Bot0_Click);
             // 
-            // button10
+            // Menos
             // 
-            this.button10.Location = new System.Drawing.Point(174, 151);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.Menos.Location = new System.Drawing.Point(174, 151);
+            this.Menos.Name = "Menos";
+            this.Menos.Size = new System.Drawing.Size(75, 23);
+            this.Menos.TabIndex = 11;
+            this.Menos.Text = "-";
+            this.Menos.UseVisualStyleBackColor = true;
+            this.Menos.Click += new System.EventHandler(this.Menos_Click);
             // 
-            // button11
+            // Bot2
             // 
-            this.button11.Location = new System.Drawing.Point(93, 151);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "2";
-            this.button11.UseVisualStyleBackColor = true;
+            this.Bot2.Location = new System.Drawing.Point(93, 151);
+            this.Bot2.Name = "Bot2";
+            this.Bot2.Size = new System.Drawing.Size(75, 23);
+            this.Bot2.TabIndex = 12;
+            this.Bot2.Text = "2";
+            this.Bot2.UseVisualStyleBackColor = true;
+            this.Bot2.Click += new System.EventHandler(this.Bot2_Click);
             // 
-            // button12
+            // Igual
             // 
-            this.button12.Location = new System.Drawing.Point(255, 151);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 52);
-            this.button12.TabIndex = 13;
-            this.button12.Text = "=";
-            this.button12.UseVisualStyleBackColor = true;
+            this.Igual.Location = new System.Drawing.Point(255, 151);
+            this.Igual.Name = "Igual";
+            this.Igual.Size = new System.Drawing.Size(75, 52);
+            this.Igual.TabIndex = 13;
+            this.Igual.Text = "=";
+            this.Igual.UseVisualStyleBackColor = true;
+            this.Igual.Click += new System.EventHandler(this.Igual_Click);
             // 
-            // button13
+            // Bot6
             // 
-            this.button13.Location = new System.Drawing.Point(93, 93);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 14;
-            this.button13.Text = "6";
-            this.button13.UseVisualStyleBackColor = true;
+            this.Bot6.Location = new System.Drawing.Point(93, 93);
+            this.Bot6.Name = "Bot6";
+            this.Bot6.Size = new System.Drawing.Size(75, 23);
+            this.Bot6.TabIndex = 14;
+            this.Bot6.Text = "6";
+            this.Bot6.UseVisualStyleBackColor = true;
+            this.Bot6.Click += new System.EventHandler(this.Bot6_Click);
             // 
-            // button14
+            // Divi
             // 
-            this.button14.Location = new System.Drawing.Point(174, 93);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 15;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
+            this.Divi.Location = new System.Drawing.Point(174, 93);
+            this.Divi.Name = "Divi";
+            this.Divi.Size = new System.Drawing.Size(75, 23);
+            this.Divi.TabIndex = 15;
+            this.Divi.Text = "/";
+            this.Divi.UseVisualStyleBackColor = true;
+            this.Divi.Click += new System.EventHandler(this.Divi_Click);
             // 
-            // button15
+            // Pote
             // 
-            this.button15.Location = new System.Drawing.Point(255, 93);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 16;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
+            this.Pote.Location = new System.Drawing.Point(255, 93);
+            this.Pote.Name = "Pote";
+            this.Pote.Size = new System.Drawing.Size(75, 23);
+            this.Pote.TabIndex = 16;
+            this.Pote.Text = "POTENCIA";
+            this.Pote.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // Multi
             // 
-            this.button16.Location = new System.Drawing.Point(174, 180);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 17;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
+            this.Multi.Location = new System.Drawing.Point(174, 180);
+            this.Multi.Name = "Multi";
+            this.Multi.Size = new System.Drawing.Size(75, 23);
+            this.Multi.TabIndex = 17;
+            this.Multi.Text = "x";
+            this.Multi.UseVisualStyleBackColor = true;
+            this.Multi.Click += new System.EventHandler(this.Multi_Click);
             // 
-            // button17
+            // Mas
             // 
-            this.button17.Location = new System.Drawing.Point(174, 122);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 18;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
+            this.Mas.Location = new System.Drawing.Point(174, 122);
+            this.Mas.Name = "Mas";
+            this.Mas.Size = new System.Drawing.Size(75, 23);
+            this.Mas.TabIndex = 18;
+            this.Mas.Text = "+";
+            this.Mas.UseVisualStyleBackColor = true;
+            this.Mas.Click += new System.EventHandler(this.Mas_Click);
             // 
-            // button18
+            // Bot4
             // 
-            this.button18.Location = new System.Drawing.Point(93, 122);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 19;
-            this.button18.Text = "4";
-            this.button18.UseVisualStyleBackColor = true;
+            this.Bot4.Location = new System.Drawing.Point(93, 122);
+            this.Bot4.Name = "Bot4";
+            this.Bot4.Size = new System.Drawing.Size(75, 23);
+            this.Bot4.TabIndex = 19;
+            this.Bot4.Text = "4";
+            this.Bot4.UseVisualStyleBackColor = true;
+            this.Bot4.Click += new System.EventHandler(this.Bot4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 367);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(344, 316);
+            this.Controls.Add(this.Bot4);
+            this.Controls.Add(this.Mas);
+            this.Controls.Add(this.Multi);
+            this.Controls.Add(this.Pote);
+            this.Controls.Add(this.Divi);
+            this.Controls.Add(this.Bot6);
+            this.Controls.Add(this.Igual);
+            this.Controls.Add(this.Bot2);
+            this.Controls.Add(this.Menos);
+            this.Controls.Add(this.Bot0);
+            this.Controls.Add(this.Bot1);
+            this.Controls.Add(this.Bot3);
+            this.Controls.Add(this.Raiz);
+            this.Controls.Add(this.Cero);
+            this.Controls.Add(this.Bot9);
+            this.Controls.Add(this.Bot8);
+            this.Controls.Add(this.Bot5);
+            this.Controls.Add(this.Bot7);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
@@ -263,24 +279,24 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button Bot7;
+        private System.Windows.Forms.Button Bot5;
+        private System.Windows.Forms.Button Bot8;
+        private System.Windows.Forms.Button Bot9;
+        private System.Windows.Forms.Button Cero;
+        private System.Windows.Forms.Button Raiz;
+        private System.Windows.Forms.Button Bot3;
+        private System.Windows.Forms.Button Bot1;
+        private System.Windows.Forms.Button Bot0;
+        private System.Windows.Forms.Button Menos;
+        private System.Windows.Forms.Button Bot2;
+        private System.Windows.Forms.Button Igual;
+        private System.Windows.Forms.Button Bot6;
+        private System.Windows.Forms.Button Divi;
+        private System.Windows.Forms.Button Pote;
+        private System.Windows.Forms.Button Multi;
+        private System.Windows.Forms.Button Mas;
+        private System.Windows.Forms.Button Bot4;
     }
 }
 

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Pantallax = new System.Windows.Forms.TextBox();
             this.Bot7 = new System.Windows.Forms.Button();
             this.Bot5 = new System.Windows.Forms.Button();
             this.Bot8 = new System.Windows.Forms.Button();
@@ -57,12 +57,13 @@
             this.textBox1.Size = new System.Drawing.Size(318, 20);
             this.textBox1.TabIndex = 0;
             // 
-            // textBox2
+            // Pantallax
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(318, 20);
-            this.textBox2.TabIndex = 1;
+            this.Pantallax.Location = new System.Drawing.Point(12, 38);
+            this.Pantallax.Name = "Pantallax";
+            this.Pantallax.Size = new System.Drawing.Size(318, 20);
+            this.Pantallax.TabIndex = 1;
+            this.Pantallax.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Bot7
             // 
@@ -122,6 +123,7 @@
             this.Raiz.TabIndex = 7;
             this.Raiz.Text = "RAIZ";
             this.Raiz.UseVisualStyleBackColor = true;
+            this.Raiz.Click += new System.EventHandler(this.Raiz_Click);
             // 
             // Bot3
             // 
@@ -211,6 +213,7 @@
             this.Pote.TabIndex = 16;
             this.Pote.Text = "POTENCIA";
             this.Pote.UseVisualStyleBackColor = true;
+            this.Pote.Click += new System.EventHandler(this.Pote_Click);
             // 
             // Multi
             // 
@@ -265,7 +268,7 @@
             this.Controls.Add(this.Bot8);
             this.Controls.Add(this.Bot5);
             this.Controls.Add(this.Bot7);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Pantallax);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "CALCULADORA";
@@ -278,7 +281,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Pantallax;
         private System.Windows.Forms.Button Bot7;
         private System.Windows.Forms.Button Bot5;
         private System.Windows.Forms.Button Bot8;

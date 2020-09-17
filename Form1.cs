@@ -26,7 +26,8 @@ namespace Calculadora
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            Cero.FlatStyle = FlatStyle.Standard;
+            Cero.BackColor = Color.Red;
         }
 
 
@@ -253,6 +254,7 @@ namespace Calculadora
 
         private void Cero_Click(object sender, EventArgs e)
         {
+            
             Pantallax.Clear();
             textBox1.Clear();
             resultado = 0;
@@ -260,6 +262,7 @@ namespace Calculadora
 
         private void Comprobar()
         {
+            
             switch (c)
             {
                 case "+":
@@ -289,7 +292,8 @@ namespace Calculadora
                     }
                     resultado = aux;
                     break;
-                case "raiz":
+                case "r":
+                    Pantallax.Text += 2;
                     //double a = resultado;
                    
                    // a = Math.Sqrt(a);
@@ -314,7 +318,8 @@ namespace Calculadora
 
         private void Raiz_Click(object sender, EventArgs e)
         {
-            c = "raiz";
+            c = "r";
+           // textBox1.Text += c;
             this.Pantallax.Clear();
             this.Pantallax.Focus();
         }

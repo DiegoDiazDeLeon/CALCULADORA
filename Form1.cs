@@ -16,6 +16,7 @@ namespace Calculadora
         Calcula calcula = new Calcula();
         bool inicio = true;
         string c = "!";
+        int r = 0;
         double resultado = 0;
         string proc = "";
         public Form1()
@@ -268,18 +269,22 @@ namespace Calculadora
                 case "+":
                     //textBox1.Text = Display.Text;
                     resultado = resultado + Convert.ToDouble(this.Pantallax.Text);
+                    
                     break;
 
                 case "-":
                     resultado = resultado - Convert.ToDouble(this.Pantallax.Text);
+                    r = 1;
                     break;
 
                 case "x":
                     resultado = resultado * Convert.ToDouble(this.Pantallax.Text);
+                    
                     break;
 
                 case "/":
                     resultado = resultado / Convert.ToDouble(this.Pantallax.Text);
+                    
                     break;
                 case "!":
                     resultado = Convert.ToDouble(this.Pantallax.Text);
@@ -292,13 +297,9 @@ namespace Calculadora
                     }
                     resultado = aux;
                     break;
-                case "r":
-                    Pantallax.Text += 2;
-                    //double a = resultado;
-                   
-                   // a = Math.Sqrt(a);
-                    //resultado = Math.Sqrt(Convert.ToDouble(this.Pantallax.Text));
-                    resultado = 2;
+                case "√":
+
+
                     break;
             }
         }
@@ -318,8 +319,11 @@ namespace Calculadora
 
         private void Raiz_Click(object sender, EventArgs e)
         {
-            c = "r";
-           // textBox1.Text += c;
+            c = "√";
+            textBox1.Text += c;
+            double cont = Convert.ToDouble(this.Pantallax.Text);
+            double raiz = Math.Sqrt(cont);
+            resultado = raiz;
             this.Pantallax.Clear();
             this.Pantallax.Focus();
         }
